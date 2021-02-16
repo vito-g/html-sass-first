@@ -40,6 +40,10 @@ $textAlign: center;
 
       &-style {
         color: darkblue;
+
+        span {
+          font-weight: bold;
+        }
       }
     }
 

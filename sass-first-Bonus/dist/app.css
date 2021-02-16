@@ -29,6 +29,9 @@
 #whole-container main .main-container-style {
   color: darkblue;
 }
+#whole-container main .main-container-style span {
+  font-weight: bold;
+}
 #whole-container footer {
   background-color: lightgrey;
   text-align: center;
