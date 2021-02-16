@@ -19,8 +19,10 @@
   background-position: center;
 }
 #whole-container header {
-  background-color: darkblue;
   font-size: 80px;
+}
+#whole-container header, #whole-container footer {
+  background-color: darkblue;
 }
 #whole-container main {
   height: calc(100vh - 180px);
@@ -41,6 +43,5 @@
   font-weight: bold;
 }
 #whole-container footer {
-  background-color: darkblue;
   line-height: 90px;
 }
