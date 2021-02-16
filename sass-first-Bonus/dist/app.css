@@ -9,6 +9,7 @@
   height: 90px;
   margin: auto;
   color: lightblue;
+  text-align: center;
 }
 
 #whole-container {
@@ -19,7 +20,6 @@
 }
 #whole-container header {
   background-color: darkblue;
-  text-align: center;
   font-size: 80px;
 }
 #whole-container main {
@@ -32,12 +32,15 @@
 }
 #whole-container main .main-container-style {
   color: darkblue;
+  font-weight: bold;
 }
-#whole-container main .main-container-style span {
+#whole-container main .main-container-style-due {
+  color: darkblue;
+}
+#whole-container main .main-container-style-due span {
   font-weight: bold;
 }
 #whole-container footer {
   background-color: darkblue;
-  text-align: center;
   line-height: 90px;
 }

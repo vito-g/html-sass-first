@@ -10,6 +10,7 @@ $dimension-height: 90px;
 $marginEl: auto;
 $backColor: darkblue;
 $textAlign: center;
+// $backgroundPic: url('../img/abstract.jpg')
 //END var
 
 //Class Utility
@@ -18,6 +19,7 @@ $textAlign: center;
   height: $dimension-height;
   margin: $marginEl;
   color: lightblue;
+  text-align: $textAlign;
 }
 //END Class Utility
 
@@ -30,7 +32,6 @@ $textAlign: center;
 
   header {
     background-color: $backColor;
-    text-align: $textAlign;
     font-size: 80px;
   }
 
@@ -44,6 +45,11 @@ $textAlign: center;
 
       &-style {
         color: darkblue;
+        font-weight: bold;
+      }
+
+      &-style-due{
+        color: darkblue;
 
         span {
           font-weight: bold;
@@ -55,7 +61,6 @@ $textAlign: center;
 
   footer {
     background-color: $backColor;
-    text-align: $textAlign;
     line-height: 90px;
   }
 }
