@@ -1,5 +1,16 @@
 #container {
   width: 400px;
-  height: 250px;
   background-color: grey;
+  margin: auto;
+  padding: 20px;
+}
+#container .content {
+  font-family: Arial, san-serif;
+}
+#container .content-title {
+  text-decoration: underline;
+  font-family: monospace;
+}
+#container .content-subtitle {
+  font-family: monospace;
 }

@@ -1,5 +1,24 @@
+//var
+$title-color: red;
+//END var
+
 #container {
   width: 400px;
-  height: 250px;
+  // height: 250px;
   background-color: grey;
+  margin: auto;
+  padding: 20px;
+
+  .content {
+    font-family: Arial, san-serif;
+
+    &-title {
+      text-decoration: underline;
+      font-family: monospace;
+    }
+
+    &-subtitle {
+      font-family: monospace;
+    }
+  }
 }
