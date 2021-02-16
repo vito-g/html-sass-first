@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.container {
+  width: 600px;
+  height: 90px;
+  margin: auto;
+}
+
 #whole-container {
   background-image: url("https://www.sfondissimo.com/wp-content/gallery/sfondi-astratti/abstract-blue-12453.jpg");
 }
@@ -11,11 +17,6 @@
   background-color: lightgrey;
   text-align: center;
   font-size: 80px;
-}
-#whole-container header .container {
-  width: 600px;
-  height: 90px;
-  margin: auto;
 }
 #whole-container main {
   height: calc(100vh - 180px);
@@ -25,11 +26,11 @@
   margin: auto;
   padding: 20px;
 }
+#whole-container main .main-container-style {
+  color: darkblue;
+}
 #whole-container footer {
   background-color: lightgrey;
-}
-#whole-container footer .container {
-  width: 600px;
-  height: 90px;
-  margin: auto;
+  text-align: center;
+  line-height: 90px;
 }

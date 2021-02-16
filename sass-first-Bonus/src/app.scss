@@ -9,7 +9,16 @@ $dimension-width: 600px;
 $dimension-height: 90px;
 $marginEl: auto;
 $backColor: lightgrey;
+$textAlign: center;
 //END var
+
+//Class Utility
+.container {
+  width: $dimension-width;
+  height: $dimension-height;
+  margin: $marginEl;
+}
+//END Class Utility
 
 #whole-container {
   background-image: url('https://www.sfondissimo.com/wp-content/gallery/sfondi-astratti/abstract-blue-12453.jpg');
@@ -17,15 +26,8 @@ $backColor: lightgrey;
 
   header {
     background-color: $backColor;
-    text-align: center;
+    text-align: $textAlign;
     font-size: 80px;
-
-    .container {
-      width: $dimension-width;
-      height: $dimension-height;
-      margin: $marginEl;
-    }
-
   }
 
   main {
@@ -35,18 +37,17 @@ $backColor: lightgrey;
       width: $dimension-width;
       margin: $marginEl;
       padding: 20px;
+
+      &-style {
+        color: darkblue;
+      }
     }
 
   }
 
   footer {
     background-color: $backColor;
-
-    .container {
-      width: $dimension-width;
-      height: $dimension-height;
-      margin: $marginEl;
-    }
-
+    text-align: $textAlign;
+    line-height: 90px;
   }
 }
