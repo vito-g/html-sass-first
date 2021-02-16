@@ -8,13 +8,15 @@
   width: 600px;
   height: 90px;
   margin: auto;
+  color: lightblue;
 }
 
 #whole-container {
+  font-family: sans-serif;
   background-image: url("https://www.sfondissimo.com/wp-content/gallery/sfondi-astratti/abstract-blue-12453.jpg");
 }
 #whole-container header {
-  background-color: lightgrey;
+  background-color: darkblue;
   text-align: center;
   font-size: 80px;
 }
@@ -33,7 +35,7 @@
   font-weight: bold;
 }
 #whole-container footer {
-  background-color: lightgrey;
+  background-color: darkblue;
   text-align: center;
   line-height: 90px;
 }
