@@ -1,11 +1,12 @@
 //var
 $title-color: red;
+$title-style: monospace;
 //END var
 
 #container {
   width: 400px;
   // height: 250px;
-  background-color: grey;
+  background-color: lightgrey;
   margin: auto;
   padding: 20px;
 
@@ -14,12 +15,12 @@ $title-color: red;
 
     &-title {
       text-decoration: underline;
-      font-family: monospace;
+      font-family: $title-style;
       color: $title-color;
     }
 
     &-subtitle {
-      font-family: monospace;
+      font-family: $title-style;
       color: $title-color;
     }
   }
