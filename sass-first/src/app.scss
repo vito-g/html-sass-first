@@ -15,10 +15,12 @@ $title-color: red;
     &-title {
       text-decoration: underline;
       font-family: monospace;
+      color: $title-color;
     }
 
     &-subtitle {
       font-family: monospace;
+      color: $title-color;
     }
   }
 }

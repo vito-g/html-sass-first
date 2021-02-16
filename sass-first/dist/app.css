@@ -10,7 +10,9 @@
 #container .content-title {
   text-decoration: underline;
   font-family: monospace;
+  color: red;
 }
 #container .content-subtitle {
   font-family: monospace;
+  color: red;
 }
