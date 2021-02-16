@@ -1,6 +1,35 @@
-.container {
-  width: 500px;
-  border: 1px solid black;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#whole-container {
+  background-image: url("https://www.sfondissimo.com/wp-content/gallery/sfondi-astratti/abstract-blue-12453.jpg");
+}
+#whole-container header {
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 80px;
+}
+#whole-container header .container {
+  width: 600px;
+  height: 90px;
+  margin: auto;
+}
+#whole-container main {
+  height: calc(100vh - 180px);
+}
+#whole-container main .main-container {
+  width: 600px;
   margin: auto;
   padding: 20px;
+}
+#whole-container footer {
+  background-color: lightgrey;
+}
+#whole-container footer .container {
+  width: 600px;
+  height: 90px;
+  margin: auto;
 }
